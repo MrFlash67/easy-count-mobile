@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>What A Nice Number</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+    <script src="jquery-2.1.4.min.js"></<script>
+
+</script>
+</head>
+
+<!--
+Thanks to the MIT-licenced Zepto for their jQuery replacement library!
+http://zeptojs.com/
+remind me to make a faq and put this in it
+-->
+
+<body>
+    <div id="mobile">
+
+        <div id="main">
+            <br>
+        </div>
+        <div id="refresh"><button onclick="window.location.reload();" style="width:240px;height:120px;">Refresh</button></div>
+
+        <script type="text/javascript">
+            $("#main").load("http://what-a-nice-number.herokuapp.com/api/plaintext/inc");
+        </script>
+    </div>
+</body>
+</html>

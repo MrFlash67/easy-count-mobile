@@ -1,6 +1,6 @@
-Node version: v4.2.1
+Node version: v0.12.7
 
-Cordova version: 5.3.3
+Cordova version: 5.3.1
 
 Config.xml file: 
 
@@ -87,6 +87,8 @@ Config.xml file:
 Plugins: 
 
 cordova-plugin-whitelist
+
+Error retrieving Android platform information: Error: android: Command failed with exit code ENOENT
 
 
 
